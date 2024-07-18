@@ -1,3 +1,5 @@
+// This program takes an input number and displays the sum of its digits
+
 import java.util.Scanner;
 
 class SumOfTheDigitsWithIf {
