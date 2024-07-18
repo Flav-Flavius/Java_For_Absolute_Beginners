@@ -27,3 +27,13 @@ public class EmployeePayCalculator {
     }
 
 }
+
+
+/* Logica programului este urmatoarea :
+    1. Importam clasa Scanner pentru a citi date de la utilizator
+    2. Metoda "main" este punctul de intrare al programului
+    3. Creeam un obiect Scanner pentru a citi intrarile de la utilizator (linia 6 )
+    4. Citirea orelor lucrate si a platii/ora
+    5. Folosim o conditie "if-else" pentru a verifica daca orele lucrate sunt mai putine sau egale cu 40 ,
+totodata pentru a putea stabili si plata totala
+ */
