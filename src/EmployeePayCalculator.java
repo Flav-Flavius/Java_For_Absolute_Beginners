@@ -12,7 +12,7 @@ public class EmployeePayCalculator {
         if (hours <= 40) 
         {
             regularPay = hours * payRate;
-            System.out.println("Regular pay: ");
+            System.out.println("Regular pay: " + regularPay);
         }
         else
         {
