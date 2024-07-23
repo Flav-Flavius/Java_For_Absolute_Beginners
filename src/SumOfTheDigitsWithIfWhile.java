@@ -2,8 +2,8 @@
 
 import java.util.Scanner;
 
-class SumOfTheDigitsWithWhile {
-    public static void main(String args[]) {
+class SumOfTheDigitsWithIfWhile {
+    public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
         int sum = 0;
         int number = 0;
