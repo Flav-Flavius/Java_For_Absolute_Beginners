@@ -4,15 +4,15 @@ public class OddNumber {
     public static void main(String[] args) {
 
         //Bucla for combinata cu instructiune if ce utilizezza operatorul modulo
-        for (int i = 0; i <=20; i++) {
-            if (i % 2 !=0)
+        for (int i = 0; i <= 20; i++) {
+            if (i % 2 != 0)
                 System.out.println(i);
         }
 
         System.out.println("=============");
 
         // Bucla for cu initializare multipla, unde a este variabila de control (contor) si e este variabila de calcul
-        for (int a = 0, e = 1; a< 10; a++) {
+        for (int a = 0, e = 1; a < 10; a++) {
             e = a * 2 + 1;
             System.out.println(e);
         }
