@@ -24,6 +24,7 @@ public class EmployeePayCalculator {
             System.out.println("Overtime pay: " + extraPay);
             System.out.println("Total pay: " + (regularPay + extraPay));
         }
+        myObj.close();
     }
 
 }

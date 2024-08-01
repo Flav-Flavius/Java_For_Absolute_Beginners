@@ -19,6 +19,7 @@ public class AbsoluteDifference {
         }
 
         System.out.println("Diferenta absoluta este: " + diff);
+        scanner.close();
     }
 }
 

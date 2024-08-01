@@ -41,6 +41,7 @@ public class TwoWayDecision {
 
         // Pasul 4: Afișarea rezultatului
         System.out.println("Numele zilei este: " + dayName);
+        scanner.close();
     }
 }
 

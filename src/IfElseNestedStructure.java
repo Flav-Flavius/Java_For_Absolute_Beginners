@@ -40,6 +40,7 @@ public class IfElseNestedStructure
 
         // Pasul 4: Afișarea rezultatului
         System.out.println("Valoarea maxima este: " + max);
+        scanner.close();
     }
 }
 

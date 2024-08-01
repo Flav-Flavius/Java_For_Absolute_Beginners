@@ -40,6 +40,7 @@ class SumOfTheDigitsWithIf {
             // Afișarea unui mesaj de eroare dacă numărul nu este valid
             System.out.println("Invalid number");
         }
+        myObj.close();
     }
 }
 

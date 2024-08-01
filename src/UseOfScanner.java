@@ -28,7 +28,8 @@ public class UseOfScanner {
         System.out.print(", " + userName + " went to the college at " + userCollege);
         System.out.print(". " + userName + " graduated and went to work as a " + userProfession);
         System.out.print(". Then, " + userName + " adopted an animal named " + petName);
-        System.out.print(".They both lived happily ever after!");
+        System.out.print(". They both lived happily ever after!");
+        myObj.close();
     }
 
 }

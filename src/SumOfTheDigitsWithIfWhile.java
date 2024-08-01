@@ -19,6 +19,7 @@ class SumOfTheDigitsWithIfWhile {
         } else {
             System.out.println("Invalid number");
         }
+        myObj.close();
     }
 }
 
