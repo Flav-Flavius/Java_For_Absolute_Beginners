@@ -14,6 +14,7 @@ public class FactorsOfUserInput {
                 System.out.println(i);
             }
         }
+        myObj.close();
     }
 
 }

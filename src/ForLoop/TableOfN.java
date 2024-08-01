@@ -14,5 +14,6 @@ public class TableOfN {
             result = num * i;
             System.out.println(num + " x " + i + " = " + result);
         }
+        myObj.close();
     }
 }

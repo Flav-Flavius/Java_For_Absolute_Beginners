@@ -19,6 +19,7 @@ public class MeanOfNInputs {
         }
         if (values > 0) // Daca 'values = 0' va genera eroare si va arunca o exceprtie "ArithmeticException" 
         System.out.println("The average is: " + (sumOfValues / values));
+        myObj.close();
     }
 
 }
