@@ -6,7 +6,8 @@ package WhileLoop_SentinelLoop;
 public class GeometricSequence {
     public static void main(String[] args) {
         int num = 1;
-        while (num < 1000) {
+        while (num < 1000) 
+        {
             System.out.println(num);
             num *= 3;
         }

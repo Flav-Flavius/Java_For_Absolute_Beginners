@@ -4,24 +4,25 @@ import java.util.Scanner;
 
 class SumOfTheDigitsWithIf {
     public static void main(String args[]) {
-        // Crearea unui obiect Scanner pentru a citi de la tastatură
+        // Crearea unui obiect Scanner pentru a citi de la tastatura
         Scanner myObj = new Scanner(System.in);
 
-        // Inițializarea variabilelor pentru suma cifrelor și numărul introdus
+        // Initializarea variabilelor pentru suma cifrelor si numarul introdus
         int sum = 0;
         int number = 0;  // Se initializeaza chiar daca imediat se va suprascrie
 
-        // Solicitarea unui număr de la utilizator, cu cel mult 4 cifre
+        // Solicitarea unui numar de la utilizator, cu cel mult 4 cifre
         System.out.println("Enter a number with at most 4 digits: ");
-        number = myObj.nextInt(); // Citirea numărului
+        number = myObj.nextInt(); // Citirea numarului
 
-        // Verificarea dacă numărul este în intervalul 0 - 9999
-        if (number > 0 && number <= 9999) {
-            // Adăugarea ultimei cifre a numărului la suma
-            sum += number % 10; // Adăugarea restului împărțirii la 10 (ultima cifră)
-            number = number / 10; // Eliminarea ultimei cifre din număr
+        // Verificarea daca numarul este in intervalul 0 - 9999
+        if (number > 0 && number <= 9999) 
+        {
+            // Adaugarea ultimei cifre a numarului la suma
+            sum += number % 10; // Adaugarea restului impartirii la 10 (ultima cifra)
+            number = number / 10; // Eliminarea ultimei cifre din numar
 
-            // Repetarea adăugării cifrelor dacă numărul are mai mult de o cifră
+            // Repetarea adaugarii cifrelor daca numarul are mai mult de o cifra
             if (number > 0) {
                 sum += number % 10;
                 number = number / 10;
@@ -34,10 +35,11 @@ class SumOfTheDigitsWithIf {
                 sum += number % 10;
                 number = number / 10;
             }
-            // Afișarea sumei cifrelor
+            // Afisarea sumei cifrelor
             System.out.println("Sum of digits is: " + sum);
-        } else {
-            // Afișarea unui mesaj de eroare dacă numărul nu este valid
+        } else 
+        {
+            // Afisarea unui mesaj de eroare daca numarul nu este valid
             System.out.println("Invalid number");
         }
         myObj.close();

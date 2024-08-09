@@ -12,7 +12,8 @@ public class ReverseSequenceOfDigits {
         int originalNumber = a;
         String result = "";
 
-        while (a > 0) {
+        while (a > 0)
+        {
             result += a % 10;   // Prin autoboxing sau conversie automata
             a /= 10;
         }
@@ -21,7 +22,8 @@ public class ReverseSequenceOfDigits {
         System.out.println("================");
         
         a = originalNumber;
-        while (a > 0) {
+        while (a > 0) 
+        {
             System.out.println(a % 10);
             a /= 10;   
         }
