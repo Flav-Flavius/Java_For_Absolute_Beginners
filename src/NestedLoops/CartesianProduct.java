@@ -27,7 +27,9 @@ public class CartesianProduct {
         System.out.println("===================");
 
 
-        /* A real-world example where you might use a nested for loop similar to one used to generate a Cartesian product is generating combinations of colors and sizes for a product in an online store. Suppose you have a store that sells t-shirts, and you want to generate a list of all possible combinations of available colors and sizes. */
+        /* A real-world example where you might use a nested for loop similar to one used to generate a Cartesian product is generating combinations 
+        of colors and sizes for a product in an online store. Suppose you have a store that sells t-shirts, and you want to generate a list of all possible 
+        combinations of available colors and sizes. */
          
         // Lista de culori disponibile
          String[] colors = {"Red", "Blue", "Green"};
