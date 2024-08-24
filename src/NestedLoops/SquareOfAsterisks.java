@@ -18,6 +18,7 @@ public class SquareOfAsterisks {
             }
             System.out.println();
         }
+        myObj.close();
         
     }   
 }
